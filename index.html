@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="product-container">
+        <div class="product-image">
+            <div>
+                <img src="/Images/Image1.png" alt="Product Image" id="mainImage">
+            </div>
+            <div class="thumbnails">
+                <img src="/Images/Image.jpg" alt="Thumbnail" class="thumbnail">
+                <img src="/Images/Image.jpg" alt="Thumbnail" class="thumbnail">
+                <img src="/Images/Image.jpg" alt="Thumbnail" class="thumbnail">
+                <img src="/Images/Image.jpg" alt="Thumbnail" class="thumbnail">
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="Title-text">Marmeto</div>
+            <div class="product-title">Embrace Sideboard</div>
+            <hr>
+            <div class="price-section">
+                <div>
+                    <span class="compare-at-price">$12999.00</span>
+                    <span class="discount-percentage">35% OFF</span>
+                </div>
+                <span class="price">$10000.00</span>
+                <hr>
+            </div>
+            <div class="color-selector">
+                <div class="Title-text">Choose a color</div>
+                <div class="color">
+                    
+                        <label for="skin"></label>
+                        <input type="radio" name="color" id="skin">
+            
+                        <label for="green"></label>
+                        <input type="radio" name="color" id="green">
+                    
+                        <label for="blue"></label>
+                        <input type="radio" name="color" id="blue">
+                    
+                        <label for="pink"></label>
+                        <input type="radio" name="color" id="pink">
+                    
+                </div>
+            </div>
+            <hr>
+            <div class="size-selector">
+                     <div class="Title-text">Choose a Size</div>
+                     <div class="size">
+                        
+                        <input type="radio" name="size" id="small">
+                        <label for="small" class="radio_label">small</label>
+
+                        <input type="radio" name="size" id="Medium">
+                        <label for="Medium" class="radio_label">Medium</label>
+                    
+                        <input type="radio" name="size" id="Large">
+                        <label for="Large" class="radio_label">Large</label>
+                    
+                        <input type="radio" name="size" id="Extralarge">
+                        <label for="Extra Large" class="radio_label">Extra Large</label>
+
+                        <input type="radio" name="size" id="Extralarge">
+                        <label for="XXL" class="radio_label">XXL</label>
+                     </div>  
+            </div>
+            
+            <div class="quantity-selector">
+                <input type="number" id="quantity" min="1" value="1">
+                <button id="addToCart" class="add-to-cart-button">
+                    <i class="fa-duotone fa-bag-shopping"></i> Add to Cart</button>
+            </div>
+           
+            <div  class="add-to-cart-message">
+                Embrace Sideboard with color yellow and Size Small added to Cart
+            </div>
+            <div class="product-description">
+                <p>The Embrace Sideboard is a stylish wear.With a top cloth designed to provide superior 
+                    protection and look great, this storage solution is both functional and attractive. 
+                    It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premimum materials for a combination of style, durability, and reliability.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+ 
